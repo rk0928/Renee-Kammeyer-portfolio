@@ -12,23 +12,43 @@
 ========================= */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background: linear-gradient(to bottom right, #dbeafe, #f4f4f4);
     color: #333;
     padding: 20px;
+    line-height: 1.6;
 }
 
 /* =========================
-   ID SELECTOR (WGU REQUIREMENT)
+   CONTAINER
+========================= */
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* =========================
+   HEADER
+========================= */
+header {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* =========================
+   TITLE
 ========================= */
 #main-title {
-    font-size: 32px;
-    text-align: center;
-    margin-bottom: 10px;
+    font-size: 42px;
     color: #1a5276;
+    margin-bottom: 10px;
 }
 
 /* =========================
-   CLASS SELECTOR (WGU REQUIREMENT)
+   HIGHLIGHT
 ========================= */
 .highlight {
     color: #003366;
@@ -36,35 +56,27 @@ body {
 }
 
 /* =========================
-   HEADER
-========================= */
-header {
-    background-color: #dbeafe;
-    padding: 20px;
-    border: 2px solid #333;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-/* =========================
    NAVIGATION
 ========================= */
 nav {
     background-color: white;
-    padding: 10px;
-    border: 1px solid #999;
-    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    text-align: center;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.08);
 }
 
 nav a {
     color: #003366;
     text-decoration: none;
-    margin-right: 10px;
+    margin: 0 15px;
     font-weight: bold;
+    transition: 0.3s ease;
 }
 
 nav a:hover {
-    color: red;
+    color: #1a73e8;
 }
 
 /* =========================
@@ -72,35 +84,77 @@ nav a:hover {
 ========================= */
 main {
     background-color: white;
-    padding: 20px;
-    border: 1px solid #ccc;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
 /* =========================
-   LIST STYLE (WGU REQUIREMENT)
+   PROFILE IMAGE
+========================= */
+.profile-photo {
+    width: 220px;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+    border: 4px solid #1a5276;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* =========================
+   VIDEO
+========================= */
+video {
+    width: 100%;
+    max-width: 700px;
+    display: block;
+    margin: 25px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* =========================
+   AUDIO
+========================= */
+audio {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 20px auto;
+}
+
+/* =========================
+   LIST STYLING
 ========================= */
 ul {
     list-style-type: square;
-    margin-left: 20px;
+    margin-left: 25px;
+    margin-top: 10px;
 }
 
 ol {
     list-style-type: decimal;
-    margin-left: 20px;
+    margin-left: 25px;
+    margin-top: 10px;
 }
 
 /* =========================
-   TABLE STYLING (BONUS)
+   TABLE STYLING
 ========================= */
 table {
     border-collapse: collapse;
     width: 100%;
-    margin-top: 10px;
+    margin-top: 20px;
+}
+
+th {
+    background-color: #1a5276;
+    color: white;
 }
 
 th, td {
-    padding: 8px;
-    border: 1px solid #333;
+    padding: 12px;
+    border: 1px solid #ccc;
     text-align: left;
 }
 
@@ -108,9 +162,10 @@ th, td {
    FOOTER
 ========================= */
 footer {
-    margin-top: 20px;
-    padding: 10px;
-    background-color: #dbeafe;
+    margin-top: 25px;
+    padding: 15px;
+    background-color: white;
     text-align: center;
-    border: 1px solid #333;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.08);
 }
