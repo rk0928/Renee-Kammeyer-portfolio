@@ -36,7 +36,7 @@ Performed exploratory data analysis in Python and Jupyter Notebook to identify m
 
 ## Live Website
 
-[Portfolio Website](https://rk0928.github.io/renee-data-analytics-portfolio/)
+[Portfolio Website](https://rk0928.github.io/Renee-Kammeyer-portfolio/)
 
 ## Author
 
