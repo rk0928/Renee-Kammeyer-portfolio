@@ -303,3 +303,256 @@ body{
     background:#0d47a1;
 
 }
+/* SKILLS */
+
+.skills-grid{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:12px;
+
+}
+
+.skills-grid span{
+
+    background:#e3f2fd;
+
+    color:#0d47a1;
+
+    padding:10px 15px;
+
+    border-radius:20px;
+
+    font-weight:bold;
+
+    font-size:.95rem;
+
+}
+
+/* PROJECT DETAIL PAGES */
+
+.project-detail{
+
+    background:white;
+
+    padding:35px;
+
+    margin-bottom:30px;
+
+    border-left:6px solid #1565c0;
+
+    border-radius:10px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+}
+
+.project-detail h2{
+
+    color:#0d47a1;
+
+    margin-bottom:15px;
+
+}
+
+.project-detail h3{
+
+    color:#1565c0;
+
+    margin-top:20px;
+
+    margin-bottom:10px;
+
+}
+
+.project-detail ul{
+
+    margin-left:25px;
+
+    margin-top:10px;
+
+}
+
+.project-detail li{
+
+    margin-bottom:8px;
+
+}
+
+/* LISTS */
+
+ul{
+
+    margin-left:25px;
+
+    margin-top:10px;
+
+}
+
+li{
+
+    margin-bottom:10px;
+
+}
+
+/* AUDIO */
+
+audio{
+
+    width:100%;
+
+    margin-top:15px;
+
+}
+
+/* RESUME PAGE */
+
+hr{
+
+    border:none;
+
+    border-top:1px solid #dbe6f5;
+
+    margin:25px 0;
+
+}
+
+/* FOOTER */
+
+.site-footer{
+
+    background:#0d47a1;
+
+    color:white;
+
+    text-align:center;
+
+    padding:25px;
+
+    margin-top:40px;
+
+}
+
+/* LINKS */
+
+a{
+
+    color:#1565c0;
+
+}
+
+a:hover{
+
+    color:#0d47a1;
+
+}
+
+/* RESPONSIVE DESIGN */
+
+@media(max-width:768px){
+
+    .site-header h1{
+
+        font-size:2.2rem;
+
+    }
+
+    .tagline{
+
+        font-size:1rem;
+
+    }
+
+    .navbar{
+
+        flex-direction:column;
+
+        align-items:center;
+
+    }
+
+    .navbar a{
+
+        width:90%;
+
+        text-align:center;
+
+    }
+
+    .hero{
+
+        flex-direction:column;
+
+        text-align:center;
+
+    }
+
+    .profile-photo{
+
+        width:200px;
+
+    }
+
+    .section-box{
+
+        padding:25px;
+
+    }
+
+    .section-box h2{
+
+        font-size:1.6rem;
+
+    }
+
+    .project-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .highlight-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+@media(max-width:480px){
+
+    .site-header{
+
+        padding:35px 15px;
+
+    }
+
+    .site-header h1{
+
+        font-size:1.9rem;
+
+    }
+
+    .container{
+
+        width:94%;
+
+    }
+
+    .section-box{
+
+        padding:20px;
+
+    }
+
+    .button-link{
+
+        width:100%;
+
+        text-align:center;
+
+    }
+
+}
